@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/loginOutBtn"
+            android:icon="@drawable/ic_menu_send"
+            android:title="로그아웃" />
+        <item
+            android:id="@+id/nav_projecttext"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="프로젝트 일지" />
+        <item
+            android:id="@+id/nav_myProject"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="내 프로젝트 글" />
+        <item
+            android:id="@+id/nav_coMu"
+            android:icon="@drawable/ic_menu_share"
+            android:title="나의 커뮤니티 글" />
+        <item
+            android:id="@+id/nav_change"
+            android:icon="@drawable/ic_menu_send"
+            android:title="개인정보 수정" />
+        <item
+            android:id="@+id/nav_AppSetting"
+            android:icon="@drawable/ic_menu_send"
+            android:title="App 설정" />
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_menu_send"
+            android:title="약관 정책" />
+    </group>
+
+
+
+</menu>

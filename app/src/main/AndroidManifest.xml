@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kimchi.myapplication">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="프로젝트팀구하기!"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:label="프로젝트팀구하기!"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".ProjectActivity"></activity>
+        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".BookListActivity"></activity>
+        <activity android:name=".SightListActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".ProjectBoardActivity"></activity>
+        <activity android:name=".FreeboradActivity"></activity>
+        <activity android:name=".Freeborad"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MyProjectActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".MyfreeBoard"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+
+</manifest>
